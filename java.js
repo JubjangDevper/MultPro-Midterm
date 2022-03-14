@@ -106,14 +106,3 @@ document.body.onscroll = function(){
     }   
 }
 
-function myFunction() {
-    r = document.querySelector(':root')
-    var checkBox = document.getElementById("myCheck");
-
-    if (checkBox.checked == true){
-        r.style.setProperty('--b',67);
-        r.style.setProperty('--b2',78);
-        r.style.setProperty('--b3',77);
-        r.style.setProperty('--b4',90);
-    } 
-  }
